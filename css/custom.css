@@ -1,0 +1,19 @@
+body { 
+  background: url("../images/patrones/pattern_24.gif"); 
+}
+
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
+padding-bottom: 10px;
+}
+.form-group.last { margin-bottom:0px; }
+
+.items{
+	margin-top: 30px;
+}
+
+.expl{
+	width: 850px;
+	height: 300px;
+}
