@@ -27,6 +27,12 @@
                     </ul>
                 </li>
                 </ul>
+                <form action="buscar.php" method="post">
+                    <<div class="input-group input-group-sm">
+                      <span class="glyphicon glyphicon-search input-group-addon"></span>
+                      <input type="text" class="form-control" placeholder="Buscar" name="inp_buscar">
+                    </div>
+                </form>
                 <?php 
                     if (!(isset($_SESSION['usuario']))){
                 ?>
