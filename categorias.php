@@ -43,7 +43,6 @@
                     	<img src="images/imagen-no-disponible.gif">
                     	<div class="caption">
                         	<h3><?= $value['pr_nombre']?></h3>
-                        	<p><?= $value['pr_descripcion'] ?></p>
                         	<p>
                             	<a href="ver_producto.php?id=<?=$value['pr_id']?>" class="btn btn-primary">Mas info</a>
                         	</p>
