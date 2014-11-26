@@ -44,7 +44,7 @@
             	foreach ($response as $key => $value) {
              ?>
                 <div class="thumbnail">
-                    <img class="img-responsive" src="css/images/imagen-no-disponible.gif">
+                    <img class="img-responsive" src="images/imagen-no-disponible.gif">
                     <div class="caption-full">
                         <h4 class="pull-right">$<?=$value["pr_precio"]?></h4>
                         <h3><?=$value["pr_nombre"]?></h3>
